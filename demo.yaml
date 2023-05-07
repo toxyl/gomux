@@ -1,0 +1,5 @@
+name: demo
+panes:
+- command: echo "Hello world"
+- command: echo "My local IP is $(hostname -I)" 
+  delay: 2
